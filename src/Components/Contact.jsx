@@ -5,7 +5,7 @@ import MailIcon from "@mui/icons-material/Mail";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 const Contact = () => {
   return (
-    <div className="contact-section" id="contact">
+    <div className="contact-section">
       <p className="contact-text">Contact Me</p>
       <div className="footer-contact-box">
         <div className="footer-contacts">

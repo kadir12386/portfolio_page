@@ -171,8 +171,8 @@
   }
 }
 @media (max-width: 991px) {
-  .timline_border {
-    /* height: 630px; */
+  .full_timeline_container {
+    margin: 0px 0px 50px;
   }
 }
 @media (max-width: 769px) {

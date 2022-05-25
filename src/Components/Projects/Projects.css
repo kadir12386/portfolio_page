@@ -1,5 +1,4 @@
 .full-project-container {
-  /* background-color: red; */
   margin: 0px 85px;
   padding: 10px 20px;
   display: flex;
@@ -33,11 +32,12 @@
   background-color: rgba(30, 29, 29, 0.963);
   width: 500px;
   height: 300px;
+  height: 273px;
   padding: 100px 30px 30px;
-  margin: 0px 50px 10px;
+  margin: 0px 50px 0px;
   opacity: 0;
   border-radius: 20px;
-  transform: scaleY(1.2);
+  transform: scaleY(1.1);
   transform-origin: top;
   transition: transform 0.5s;
 }
@@ -45,7 +45,6 @@
 .full-project-container_box2:hover {
   opacity: 1;
   color: rgb(255, 255, 255);
-  transform: translateY(0px);
 }
 .project_title {
   font-size: 25px;
@@ -63,7 +62,6 @@
   font-weight: 600;
   margin-bottom: 20px;
   background-color: rgb(6, 82, 158);
-  /* background-color: rgba(253, 254, 255, 0.815); */
   padding: 10px 30px;
   margin-right: 10px;
   border: none;
@@ -80,7 +78,6 @@
   background-color: rgb(118, 117, 117);
 }
 
-/*  */
 @media (max-width: 991px) {
   .full-project-container {
     flex-direction: column;

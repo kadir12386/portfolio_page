@@ -6,10 +6,10 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 const Footer = () => {
   return (
-    <div>
+    <div id="contact">
       <footer>
-        <div class="container">
-          <div class="first">
+        <div className="container">
+          <div className="first">
             <h3 className="footer-about-text">Lets Work Together!</h3>
             <img
               src="https://www.justis.com/wp-content/uploads/2020/02/Contact-vector-800.png"
@@ -17,9 +17,9 @@ const Footer = () => {
             />
           </div>
 
-          <div class="first">
+          <div className="first">
             <h3>Contact Me</h3>
-            <ul class="content">
+            <ul className="content">
               <li>
                 <div className="phone footer-icon-text">
                   <LocalPhoneIcon className="footer-icon" />
@@ -68,7 +68,7 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-      <div class="copyrightText">
+      <div className="copyrightText">
         <p>Portfolio © Made with React</p>
       </div>
     </div>
