@@ -1,0 +1,181 @@
+/* BELOW 1344px (Smaller desktops) */
+
+@media (max-width: 84em) {
+  .container {
+    max-width: 140rem;
+  }
+}
+
+/* BELOW 1200px (Landscape tablets) */
+
+@media (max-width: 75em) {
+  .container {
+    max-width: 130rem;
+  }
+  html {
+    font-size: 56.25%;
+  }
+}
+
+/* BELOW 992px (small tablets) */
+
+@media (max-width: 62em) {
+  html {
+    font-size: 50%;
+  }
+  .intro-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2.4rem;
+  }
+  .display-img {
+    height: 40rem;
+  }
+
+  .heading-primary {
+    font-size: 4rem;
+  }
+  .intro-secondary {
+    font-size: 3rem;
+  }
+  .about-me-text {
+    font-size: 2.2rem;
+  }
+  .project-title {
+    font-size: 3rem;
+    margin-bottom: 4rem;
+  }
+  .project-links {
+    gap: 0;
+  }
+  .project-img-box {
+    padding: 0 1.6rem;
+  }
+  .task {
+    font-size: 2.2rem;
+  }
+}
+
+/* BELOW 768px (Landscape tablets) */
+
+@media (max-width: 48em) {
+  .container {
+    max-width: 100rem;
+  }
+  html {
+    font-size: 43.75%;
+  }
+  .section-heading {
+    font-size: 3rem;
+  }
+  .skill-icon {
+    height: 6rem;
+    width: 6rem;
+  }
+  .projects-container {
+    gap: 4.8rem;
+    margin-bottom: 9.6rem;
+  }
+  .project-title {
+    font-size: 2.6rem;
+    margin-bottom: 4rem;
+  }
+
+  .time {
+    font-size: 2.6rem;
+  }
+  .company {
+    font-size: 2.2rem;
+  }
+  .role {
+    font-size: 3rem;
+  }
+  .task {
+    font-size: 2rem;
+  }
+  .footer-contacts {
+    flex-direction: column;
+  }
+}
+
+/* BELOW 624px (Small tablets) */
+
+@media (max-width: 39em) {
+  .container {
+    max-width: 90rem;
+  }
+
+  .project {
+    display: flex;
+    flex-direction: column;
+  }
+  .project-2,
+  .project-4,
+  .project-6 {
+    flex-direction: column-reverse;
+  }
+  .project-img-box {
+    padding: 0;
+  }
+
+  .project-img {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  .project-title {
+    font-size: 3rem;
+  }
+  .work-exp {
+    grid-template-columns: 1fr;
+  }
+  .time-line {
+    border-right: none;
+  }
+  .project-link-icon {
+    width: 6rem;
+    height: 6rem;
+  }
+}
+
+/* Below 432px */
+
+@media (max-width: 27em) {
+  .container {
+    max-width: 70rem;
+  }
+  html {
+    font-size: 37.5%;
+  }
+
+  .main-nav-list {
+    gap: 1.6rem;
+  }
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-weight: 500;
+    font-size: 1.6rem;
+  }
+  .profile-img-box {
+    padding: 0;
+  }
+  .intro-text-box {
+    padding: 2.4rem;
+    gap: 2.4rem;
+  }
+  .phone-text:link {
+    font-size: 1.6rem;
+  }
+}
+
+/* Below 280px */
+
+@media (max-width: 16em) {
+  html {
+    font-size: 31.25%;
+  }
+  .project-links {
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    justify-content: center;
+  }
+}
